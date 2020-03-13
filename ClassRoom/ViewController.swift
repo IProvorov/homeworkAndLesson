@@ -5,6 +5,7 @@
 //  Created by Vadim Zhuk on 1/31/20.
 //  Copyright © 2020 Vadim Zhuk. All rights reserved.
 //
+// swiftlint:disable all
 
 import UIKit
 
@@ -14,7 +15,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 

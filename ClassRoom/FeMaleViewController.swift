@@ -1,14 +1,14 @@
 //
-//  MyProfileViewController.swift
+//  FeMaleViewController.swift
 //  ClassRoom
 //
-//  Created by Igor Provorov on 2/9/20.
+//  Created by Igor Provorov on 3/13/20.
 //  Copyright © 2020 Vadim Zhuk. All rights reserved.
 //
 
 import UIKit
 
-class MyProfileViewController: UIViewController {
+class FeMaleViewController: UIViewController {
     @IBOutlet weak var myProfileImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var sureNameLabel: UILabel!
@@ -21,11 +21,10 @@ class MyProfileViewController: UIViewController {
     var studentNumber = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.myProfileImage.layer.cornerRadius = self.myProfileImage.bounds.size.width / 2.0
-        self.myProfileImage.clipsToBounds = true
-        nameLabel.text = "Igor"
-        sureNameLabel.text = "Provorov"
-        ageLabel.text = "27"
-        genderLabel.text = "Male"
+        ProfileManager.shared.studentDataForProfile(studentNumber: ProfileManager.shared.studentNumber)
+        nameLabel.text =  ProfileManager.shared.name
+        sureNameLabel.text = ProfileManager.shared.surname
+        ageLabel.text = ProfileManager.shared.age
+        genderLabel.text = "female"
     }
 }

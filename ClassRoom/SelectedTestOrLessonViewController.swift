@@ -9,22 +9,19 @@
 import UIKit
 
 class SelectedTestOrLessonViewController: UIViewController {
-    let textStr:String
+    let textStr: String
     var questionLabel = UILabel()
     var titleLabel = UILabel()
     var answerTextField = UITextField()
-    let titeStr:String
-    init(labelText: String ,titleText:String) {
+    let titeStr: String
+    init(labelText: String, titleText: String) {
         textStr = labelText
         titeStr = titleText
-        
         super.init(nibName: nil, bundle: nil)
     }
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let view = UIView()
@@ -40,11 +37,10 @@ class SelectedTestOrLessonViewController: UIViewController {
             titleLabel.heightAnchor.constraint(equalToConstant: 40),
             titleLabel.trailingAnchor.constraint(equalTo: margineGuide.trailingAnchor)
         ])
-        
         view.addSubview(questionLabel)
         questionLabel.translatesAutoresizingMaskIntoConstraints = false
-        questionLabel.centerYAnchor.constraint(equalTo:view.centerYAnchor).isActive = true
-        questionLabel.centerXAnchor.constraint(equalTo:view.centerXAnchor).isActive = true
+        questionLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        questionLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         questionLabel.text = textStr
         view.addSubview(answerTextField)
         answerTextField.placeholder = "Some answer"

@@ -7,12 +7,10 @@
 //
 
 class ValidatorManager {
-    
     var allowedSymbols = "ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
     var loginIsCorrect: Bool = false
     var passwordIsCorrect: Bool = false
-    
-    func isLoginCorrect(login: String) -> Bool {
+func isLoginCorrect(login: String) -> Bool {
         var numberOfPassedSymbols = 0
         if login.count == 0 {
             loginIsCorrect = false
@@ -32,7 +30,6 @@ class ValidatorManager {
         }
         return loginIsCorrect
     }
-    
     func isPasswordCorrect(password: String) -> Bool {
         if password.count < 6 {
             passwordIsCorrect = false

@@ -6,6 +6,8 @@
 //  Copyright © 2020 Vadim Zhuk. All rights reserved.
 //
 
+// swiftlint:disable all
+
 import UIKit
 
 @UIApplicationMain
