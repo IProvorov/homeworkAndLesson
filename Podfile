@@ -5,4 +5,6 @@ inhibit_all_warnings!
 target 'ClassRoom' do
 
 pod 'SwiftLint'
+pod 'SnapKit'
+
 end
