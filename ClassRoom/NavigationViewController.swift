@@ -13,13 +13,18 @@ class NavigationViewController: UIViewController {
     @IBOutlet weak var testButton: UIButton!
     @IBOutlet weak var lessonButton: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var animationButton: UIButton!
+    @IBOutlet weak var animationWidth: NSLayoutConstraint!
+    @IBOutlet weak var animationHeight: NSLayoutConstraint!
     var login: String = ""
     var isMyProfile = Bool()
     var loginName = ""
+    var numberAnimation = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = loginName
         testButton.isEnabled = false
+        initButton()
     }
     override func viewWillAppear(_ animated: Bool) {
         isMyProfile = false

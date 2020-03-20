@@ -22,6 +22,8 @@
 		1F44CA0D240450F30069865E /* ValidatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44CA0C240450F30069865E /* ValidatorManager.swift */; };
 		1F47BDCB241B5FD800870915 /* MaleVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47BDCA241B5FD800870915 /* MaleVCViewController.swift */; };
 		1F47BDCD241B611700870915 /* FeMaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47BDCC241B611700870915 /* FeMaleViewController.swift */; };
+		1F5428E82424C65B00A4AE81 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5428E72424C65B00A4AE81 /* CollectionViewController.swift */; };
+		1F787CEA2424C96A00CF508A /* AnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F787CE92424C96A00CF508A /* AnimationButton.swift */; };
 		1FA2652B23EB4160007608EA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2652A23EB4160007608EA /* SecondViewController.swift */; };
 		1FA2652D23EB4292007608EA /* LoginAndPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2652C23EB4292007608EA /* LoginAndPassViewController.swift */; };
 		1FA2653023EDD634007608EA /* ManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2652F23EDD634007608EA /* ManualViewController.swift */; };
@@ -51,6 +53,8 @@
 		1F44CA0C240450F30069865E /* ValidatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorManager.swift; sourceTree = "<group>"; };
 		1F47BDCA241B5FD800870915 /* MaleVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaleVCViewController.swift; sourceTree = "<group>"; };
 		1F47BDCC241B611700870915 /* FeMaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeMaleViewController.swift; sourceTree = "<group>"; };
+		1F5428E72424C65B00A4AE81 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		1F787CE92424C96A00CF508A /* AnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationButton.swift; sourceTree = "<group>"; };
 		1FA2652A23EB4160007608EA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		1FA2652C23EB4292007608EA /* LoginAndPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndPassViewController.swift; sourceTree = "<group>"; };
 		1FA2652F23EDD634007608EA /* ManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				1F44CA08240447F40069865E /* StudentsData */,
 				1F44CA05240447350069865E /* Managers */,
 				0DF9EAA423E49DF900AA859F /* AppDelegate.swift */,
+				1F787CE92424C96A00CF508A /* AnimationButton.swift */,
 				1F47BDCA241B5FD800870915 /* MaleVCViewController.swift */,
 				1F47BDCC241B611700870915 /* FeMaleViewController.swift */,
 				0DF9EAA623E49DF900AA859F /* SceneDelegate.swift */,
@@ -113,6 +118,7 @@
 				1FA2653523F06BD7007608EA /* LessonOrTestViewController.swift */,
 				1F4161FA23FC59C1008FFA92 /* StudentTableViewCell.swift */,
 				1FA2653723F1C029007608EA /* SelectedTestOrLessonViewController.swift */,
+				1F5428E72424C65B00A4AE81 /* CollectionViewController.swift */,
 				0DF9EAAA23E49DF900AA859F /* Main.storyboard */,
 				1F4161FC23FC5C93008FFA92 /* XibTableViewCell.swift */,
 				1F4161FD23FC5C93008FFA92 /* XibTableViewCell.xib */,
@@ -279,6 +285,7 @@
 				1F4161FE23FC5C93008FFA92 /* XibTableViewCell.swift in Sources */,
 				1F44CA0D240450F30069865E /* ValidatorManager.swift in Sources */,
 				0DF9EAA923E49DF900AA859F /* ViewController.swift in Sources */,
+				1F787CEA2424C96A00CF508A /* AnimationButton.swift in Sources */,
 				1F44CA072404476C0069865E /* ProfileManager.swift in Sources */,
 				0DF9EAA523E49DF900AA859F /* AppDelegate.swift in Sources */,
 				1FA2652D23EB4292007608EA /* LoginAndPassViewController.swift in Sources */,
@@ -287,6 +294,7 @@
 				1FA2653223F05D63007608EA /* NavigationViewController.swift in Sources */,
 				1FA2653823F1C02A007608EA /* SelectedTestOrLessonViewController.swift in Sources */,
 				1FA2653623F06BD7007608EA /* LessonOrTestViewController.swift in Sources */,
+				1F5428E82424C65B00A4AE81 /* CollectionViewController.swift in Sources */,
 				1F44CA0B240448BF0069865E /* StudentsData.swift in Sources */,
 				3C51549A23FBF070004A6A22 /* Profile.swift in Sources */,
 				1F47BDCB241B5FD800870915 /* MaleVCViewController.swift in Sources */,

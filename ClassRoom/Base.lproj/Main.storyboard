@@ -217,6 +217,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNP-6U-HMO">
+                                <rect key="frame" x="107" y="573" width="200" height="50"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Nf5-To-0Ap"/>
+                                    <constraint firstAttribute="width" constant="200" id="aLU-hg-3d4"/>
+                                </constraints>
+                                <state key="normal" title="Animation">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -229,6 +240,8 @@
                             <constraint firstItem="gQ1-ow-OUb" firstAttribute="leading" secondItem="IWO-CW-CWe" secondAttribute="leading" constant="20" id="WDa-CT-Unv"/>
                             <constraint firstAttribute="trailing" secondItem="gQ1-ow-OUb" secondAttribute="trailing" constant="20" id="WgN-JP-LgR"/>
                             <constraint firstItem="XWr-iV-CfP" firstAttribute="leading" secondItem="IWO-CW-CWe" secondAttribute="leading" constant="20" id="Xia-Sz-IHq"/>
+                            <constraint firstItem="WNP-6U-HMO" firstAttribute="centerX" secondItem="4Kx-HU-dVY" secondAttribute="centerX" id="bGm-xK-nEu"/>
+                            <constraint firstItem="WNP-6U-HMO" firstAttribute="top" secondItem="4Kx-HU-dVY" secondAttribute="bottom" constant="30" id="qAl-E9-pyJ"/>
                             <constraint firstItem="4Kx-HU-dVY" firstAttribute="top" secondItem="H6f-nd-PFG" secondAttribute="bottom" constant="20" id="rQF-16-f0m"/>
                             <constraint firstItem="H6f-nd-PFG" firstAttribute="centerX" secondItem="IWO-CW-CWe" secondAttribute="centerX" id="u86-oA-HQS"/>
                             <constraint firstItem="H6f-nd-PFG" firstAttribute="top" secondItem="XWr-iV-CfP" secondAttribute="bottom" constant="20" id="xoE-Ru-ruN"/>
@@ -236,12 +249,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="LI7-UW-vFQ"/>
                     <connections>
+                        <outlet property="animationButton" destination="WNP-6U-HMO" id="Fp6-f5-axG"/>
+                        <outlet property="animationHeight" destination="Nf5-To-0Ap" id="4J9-wn-dzv"/>
+                        <outlet property="animationWidth" destination="aLU-hg-3d4" id="Pi8-TY-Bh1"/>
                         <outlet property="lessonButton" destination="H6f-nd-PFG" id="i6L-ym-iPG"/>
                         <outlet property="profileButton" destination="4Kx-HU-dVY" id="5aW-2V-PUf"/>
                         <outlet property="testButton" destination="XWr-iV-CfP" id="TPC-Ae-lUL"/>
                         <outlet property="titleLabel" destination="gQ1-ow-OUb" id="2tZ-3C-P0n"/>
                         <segue destination="uDx-2g-Xze" kind="show" identifier="myProfile" id="f8K-2T-gZV"/>
                         <segue destination="MuK-Ke-UKb" kind="show" identifier="testOrLesson" id="wfu-hu-wfE"/>
+                        <segue destination="au1-nt-W40" kind="show" identifier="collectionView" id="86l-je-oiZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fer-4c-ChS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -328,7 +345,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y3K-Sq-lWk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3390" y="119"/>
+            <point key="canvasLocation" x="3404" y="511"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="amv-UD-Yma">
+            <objects>
+                <viewController id="au1-nt-W40" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hKf-rE-Dzc"/>
+                        <viewControllerLayoutGuide type="bottom" id="jkU-jl-BzY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C4c-iD-dJh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dci-Mg-6KH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zmS-P8-Ibc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4084" y="115"/>
         </scene>
         <!--My Profile View Controller-->
         <scene sceneID="idD-CM-eoL">
