@@ -13,13 +13,13 @@
 		0DF9EAAC23E49DF900AA859F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9EAAA23E49DF900AA859F /* Main.storyboard */; };
 		0DF9EAAE23E49DFA00AA859F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9EAAD23E49DFA00AA859F /* Assets.xcassets */; };
 		0DF9EAB123E49DFA00AA859F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF9EAAF23E49DFA00AA859F /* LaunchScreen.storyboard */; };
+		1F3134402420FDB100622B9B /* Names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F31343F2420FDB100622B9B /* Names.txt */; };
 		1F4161FB23FC59C1008FFA92 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4161FA23FC59C1008FFA92 /* StudentTableViewCell.swift */; };
 		1F4161FE23FC5C93008FFA92 /* XibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4161FC23FC5C93008FFA92 /* XibTableViewCell.swift */; };
 		1F4161FF23FC5C93008FFA92 /* XibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F4161FD23FC5C93008FFA92 /* XibTableViewCell.xib */; };
 		1F44CA072404476C0069865E /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44CA062404476C0069865E /* ProfileManager.swift */; };
 		1F44CA0B240448BF0069865E /* StudentsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44CA0A240448BF0069865E /* StudentsData.swift */; };
 		1F44CA0D240450F30069865E /* ValidatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44CA0C240450F30069865E /* ValidatorManager.swift */; };
-		1F44CA0F2404517E0069865E /* Names.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F44CA0E2404517E0069865E /* Names.txt */; };
 		1F47BDCB241B5FD800870915 /* MaleVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47BDCA241B5FD800870915 /* MaleVCViewController.swift */; };
 		1F47BDCD241B611700870915 /* FeMaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47BDCC241B611700870915 /* FeMaleViewController.swift */; };
 		1FA2652B23EB4160007608EA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA2652A23EB4160007608EA /* SecondViewController.swift */; };
@@ -42,13 +42,13 @@
 		0DF9EAAD23E49DFA00AA859F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DF9EAB023E49DFA00AA859F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DF9EAB223E49DFA00AA859F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F31343F2420FDB100622B9B /* Names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Names.txt; path = ClassRoom/Names.txt; sourceTree = SOURCE_ROOT; };
 		1F4161FA23FC59C1008FFA92 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
 		1F4161FC23FC5C93008FFA92 /* XibTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTableViewCell.swift; sourceTree = "<group>"; };
 		1F4161FD23FC5C93008FFA92 /* XibTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTableViewCell.xib; sourceTree = "<group>"; };
 		1F44CA062404476C0069865E /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
 		1F44CA0A240448BF0069865E /* StudentsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsData.swift; sourceTree = "<group>"; };
 		1F44CA0C240450F30069865E /* ValidatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorManager.swift; sourceTree = "<group>"; };
-		1F44CA0E2404517E0069865E /* Names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Names.txt; path = ../../../Desktop/Names.txt; sourceTree = "<group>"; };
 		1F47BDCA241B5FD800870915 /* MaleVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaleVCViewController.swift; sourceTree = "<group>"; };
 		1F47BDCC241B611700870915 /* FeMaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeMaleViewController.swift; sourceTree = "<group>"; };
 		1FA2652A23EB4160007608EA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		1F44CA08240447F40069865E /* StudentsData */ = {
 			isa = PBXGroup;
 			children = (
-				1F44CA0E2404517E0069865E /* Names.txt */,
+				1F31343F2420FDB100622B9B /* Names.txt */,
 				1F44CA0A240448BF0069865E /* StudentsData.swift */,
 			);
 			path = StudentsData;
@@ -218,7 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F44CA0F2404517E0069865E /* Names.txt in Resources */,
+				1F3134402420FDB100622B9B /* Names.txt in Resources */,
 				0DF9EAB123E49DFA00AA859F /* LaunchScreen.storyboard in Resources */,
 				1F4161FF23FC5C93008FFA92 /* XibTableViewCell.xib in Resources */,
 				0DF9EAAE23E49DFA00AA859F /* Assets.xcassets in Resources */,
