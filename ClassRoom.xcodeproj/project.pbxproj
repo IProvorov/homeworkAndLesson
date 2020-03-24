@@ -89,13 +89,12 @@
 		0DF9EAA323E49DF900AA859F /* ClassRoom */ = {
 			isa = PBXGroup;
 			children = (
+				1F787CF9242A622900CF508A /* Storyboards */,
 				1F787CF02429227E00CF508A /* UI */,
 				1F44CA08240447F40069865E /* StudentsData */,
 				1F44CA05240447350069865E /* Managers */,
 				0DF9EAA423E49DF900AA859F /* AppDelegate.swift */,
 				0DF9EAA623E49DF900AA859F /* SceneDelegate.swift */,
-				1F5428E72424C65B00A4AE81 /* CollectionViewController.swift */,
-				1F787CF5242929A000CF508A /* StudentCollectionViewCell.swift */,
 				0DF9EAAD23E49DFA00AA859F /* Assets.xcassets */,
 				0DF9EAAF23E49DFA00AA859F /* LaunchScreen.storyboard */,
 				0DF9EAB223E49DFA00AA859F /* Info.plist */,
@@ -134,11 +133,11 @@
 		1F787CF02429227E00CF508A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1F787CF7242A61F400CF508A /* StudentCollectionViewController */,
 				1F787CF42429276800CF508A /* StudentsTableView */,
 				1F787CF32429269A00CF508A /* ProfileVC */,
 				1F787CF22429263B00CF508A /* NavigationVC */,
 				1F787CF12429229700CF508A /* LoginAndPassVC */,
-				0DF9EAAA23E49DF900AA859F /* Main.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -175,6 +174,31 @@
 				1FA2653523F06BD7007608EA /* LessonOrTestViewController.swift */,
 			);
 			path = StudentsTableView;
+			sourceTree = "<group>";
+		};
+		1F787CF7242A61F400CF508A /* StudentCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F787CF8242A621A00CF508A /* StudentCollectionViewCell */,
+				1F5428E72424C65B00A4AE81 /* CollectionViewController.swift */,
+			);
+			path = StudentCollectionViewController;
+			sourceTree = "<group>";
+		};
+		1F787CF8242A621A00CF508A /* StudentCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1F787CF5242929A000CF508A /* StudentCollectionViewCell.swift */,
+			);
+			path = StudentCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		1F787CF9242A622900CF508A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9EAAA23E49DF900AA859F /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		6EE66562B4AC0116BF306290 /* Pods */ = {
