@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LessonOrTestViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class StudentsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let students = StudentsData()
     var studentNumber = 0
     override func viewDidLoad() {

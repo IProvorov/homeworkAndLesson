@@ -34,7 +34,9 @@ class NavigationViewController: UIViewController {
         performSegue(withIdentifier: "myProfile", sender: sender)
     }
     @IBAction func lessonClick(_ sender: Any) {
-        performSegue(withIdentifier: "testOrLesson", sender: sender)
+        //performSegue(withIdentifier: "testOrLesson", sender: sender)
+        guard let vc = storyboard?.instantiateViewController(identifier: "CollectionViewController") else {return}
+               navigationController?.pushViewController(vc, animated: true)
     }
     @IBAction func testClick(_ sender: Any) {
         //  isTest = true
@@ -46,9 +48,9 @@ class NavigationViewController: UIViewController {
             nextViewController.title = profileButton.titleLabel?.text
             nextViewController .isMyProfile = isMyProfile
         }
-        if segue.identifier == "testOrLesson" ,
-            let destinationVC = segue.destination as? LessonOrTestViewController {
-            destinationVC.title = "Other Profile"
-        }
+       // if segue.identifier == "testOrLesson" ,
+         //   let destinationVC = segue.destination as? LessonOrTestViewController {
+          //  destinationVC.title = "Other Profile"
+      //  }
     }
 }

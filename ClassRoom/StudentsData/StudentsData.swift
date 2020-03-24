@@ -34,7 +34,7 @@ class StudentsData: NSObject, UITableViewDataSource {
         }
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arrayOfStudents.count
+        return arrayOfStudents.count 
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var studentsCell = UITableViewCell()
